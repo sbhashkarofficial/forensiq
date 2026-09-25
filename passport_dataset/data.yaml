@@ -1,0 +1,15 @@
+# Absolute or relative path to the dataset folder
+path: passport_dataset
+
+# Sub-directories containing images
+train: images/train
+val: images/val
+
+# Number of classes
+nc: 3
+
+# Class names mapping
+names:
+  0: main_photo
+  1: mrz_zone
+  2: signature
